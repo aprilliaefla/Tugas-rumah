@@ -161,6 +161,14 @@ article img {
   border: 1px solid #DDDDDD;
 }
 
+.blok {
+background-color: #FFFFFF;
+width: 100%;
+padding: 10px 0px;
+padding-block: #FFFFFF;
+border-radius: 1%;
+}
+
 /* 5. Tabel */
 table {
   border-collapse: collapse;

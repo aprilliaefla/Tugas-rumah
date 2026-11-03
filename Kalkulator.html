@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprillia Efla Susmita | Beranda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/latihan.js"></script>
+  <script src="js/logika.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <h1>Aprillia Efla Susmita</h1>
+      <nav class="menu-laptop">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="proyek.html">Proyek</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+          <li><a href="kalkulator.html">Kalkulator</a></li>
+        </ul>
+      </nav>
+      <!-- Tantangan: menu ponsel yang bisa dibuka-tutup -->
+      <details class="menu-ponsel">
+        <summary>Menu</summary>
+        <nav>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="proyek.html">Proyek</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="kalkulator.html">Kalkulator</a></li>
+          </ul>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="kartu">
+        <h2>Kalkulator Nilai</h2>
+        <p> Masukan nilai Tugas, UTS, dan UAS Lalu tekan tombol hitung.</p>
+        
+        <h3> Nilai Tugas </h3>
+        <div class="blok">
+          <input type="number" id="tugas" placeholder="Masukan Nilai Tugas">
+        </div>
+        <h3> Nilai UTS </h3>
+        <div class="blok">
+          <input type="number" id="uts" placeholder="Masukan Nilai UTS">
+        </div>
+        <h3> Nilai UAS </h3>
+        <div class="blok">
+          <input type="number" id="uas" placeholder="Masukan Nilai UAS">
+        </div>
+        <div id="hasil" class="hasil">
+          <div class="modal box">
+            <button id="hitungNilai" class="hitung-nilai" type="button">Hitung Nilai</button>
+            <p id="nilaiAkhir"></p>
+            <p id="predikat"></p>
+          </div>
+        </div>
+      </section>
+
+      
+  </main>
+
+  <footer>
+    <p>Kontak: <a href="mailto:efla.rpl@gmail.com">efla.rpl@gmail.com</a> |
+      <a href="https://github.com/aprilliaefla" target="_blank">GitHub</a> |
+      <a href="https://www.youtube.com/@Efla_RPL" target="_blank">YouTube</a></p>
+    <p>&copy; 2026 Aprillia Efla Susmita. Dibuat di Kelas Industri UBIG.</p>
+  </footer>
+</body>
+</html>
