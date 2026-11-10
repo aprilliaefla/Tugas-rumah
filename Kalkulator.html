@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aprillia Efla Susmita | Beranda</title>
+  <title>Aprillia efla Susmita | Kontak</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/latihan.js"></script>
-  <script src="js/logika.js"></script>
+  <script src="js/main.js" defer></script>
 </head>
 <body>
   <header>
@@ -23,6 +22,7 @@
           <li><a href="kalkulator.html">Kalkulator</a></li>
         </ul>
       </nav>
+      <button type="button" id="tombol-tema" class="tombol-tema">Mode Gelap</button>
       <!-- Tantangan: menu ponsel yang bisa dibuka-tutup -->
       <details class="menu-ponsel">
         <summary>Menu</summary>
@@ -42,30 +42,27 @@
     <div class="container">
       <section class="kartu">
         <h2>Kalkulator Nilai</h2>
-        <p> Masukan nilai Tugas, UTS, dan UAS Lalu tekan tombol hitung.</p>
-        
-        <h3> Nilai Tugas </h3>
-        <div class="blok">
-          <input type="number" id="tugas" placeholder="Masukan Nilai Tugas">
-        </div>
-        <h3> Nilai UTS </h3>
-        <div class="blok">
-          <input type="number" id="uts" placeholder="Masukan Nilai UTS">
-        </div>
-        <h3> Nilai UAS </h3>
-        <div class="blok">
-          <input type="number" id="uas" placeholder="Masukan Nilai UAS">
-        </div>
-        <div id="hasil" class="hasil">
-          <div class="modal box">
-            <button id="hitungNilai" class="hitung-nilai" type="button">Hitung Nilai</button>
-            <p id="nilaiAkhir"></p>
-            <p id="predikat"></p>
-          </div>
-        </div>
-      </section>
+        <p>Masukkan nilai tugas, UTS, dan UAS.</p>
 
-      
+        <form>
+          <p>
+            <label for="nama">Nilai tugas</label><br>
+            <input type="number" id="nilaitugas" name="nilaitugas"  required>
+          </p>
+          <p>
+            <label for="email">Nilai UTS</label><br>
+            <input type="number" id="nilaiUTS" name="nilaiUTS" required>
+          </p>
+          <p>
+            <label for="hp">NilaiUAS</label><br>
+            <input type="number" id="nilaiUAS" name="nilaiUAS"  required>
+          </p>
+          
+
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </section>
+    </div>
   </main>
 
   <footer>

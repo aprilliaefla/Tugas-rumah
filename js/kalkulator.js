@@ -1,7 +1,9 @@
 // Hitung rata rata
-const btnhitungnilai = document.getElementById("hitungNilai");
+const nilaitugas = document.querySelector('nilaitugas').value;
+const nilaiUTS = document.querySelector('nilaiUTS').value;
+const nilaiUAS = document.querySelector('nilaiUAS').value;
 
-const hitungRataRata = (tugas, uts, uas) => (tugas + uts + uas) / 3;
+const hitungRataRata = (tugas, uts, uas) => (nilaitugas + nilaiUTS + nilaiUAS) / 3;
 
 function predikat(nilai) {
     if (nilai >= 90) {
@@ -15,10 +17,5 @@ function predikat(nilai) {
     }
 }
 
-
-function rapor (namaSiswa, tugas, uts, uas) {
-    const rata = hitungRataRata (tugas, uts, uas);
-    return `${namaSiswa} : rata-rata ${rata}, predikat ${predikat(rata)}`;
-}
-
+document.getElementById("hitungRataRata").textContent = rataRata;
 
