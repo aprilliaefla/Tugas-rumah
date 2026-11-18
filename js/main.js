@@ -45,11 +45,13 @@ tombolTema.addEventListener ("click", () => {
 // 3. Penghitung karakter pesan (halaman Kontak)
 const kotakPesan = document.querySelector("#pesan");
 const hitungKarakter = document.querySelector("#hitung-karakter");
+const hampirPenuh = document.querySelector("#hampir-penuh")
 
 if (kotakPesan) {
     kotakPesan.addEventListener("input", () => {
         hitungKarakter.textContent = `${kotakPesan.value.length}/300
     karakter`;
+    
      });
 }
 
@@ -162,3 +164,19 @@ async function ambilRepo() {
 if (daftarRepo) {
     ambilRepo ();
 }
+
+// 6. tombol pesan hampir penuh
+
+const tombolKosongkan = document.querySelector ("#tombol-Kosongkan")
+
+
+tombolKosongkan.addEventListener ("click", () => {
+    document.body.classList.toggle (delete-textContent))
+}
+
+if (tombolKosongkan) {
+    tombolKosongkan.addEventListener("input", () => {
+        hitungKarakter.textContent = `${kotakPesan.value.length}/300
+    karakter`;
+    
+    
