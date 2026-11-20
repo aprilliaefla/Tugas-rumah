@@ -1,6 +1,6 @@
 # Portofolio Aprillia Efla Susmita
 Website portofolio pribadi yang saya buat di Kelas Industri UBIG
-(Paket 1, Minggu 01 sampai 05).
+(Paket 1, Minggu 01 sampai 09).
 Website ini tampil rapi di ponsel, tablet, dan laptop.
 ## Tampilan
 ![Tampilan beranda portofolio](img/PROFIL.png)
@@ -14,6 +14,13 @@ jadwal belajar
 - HTML5
 - CSS3 (Flexbox dan media query)
 - Git dan GitHub
+- JavaScript
+- JSON
+- GitHhub API
+## Skor Light House
+- 90
+- 92
+- 90
 ## Tautan
 - Website: https://vercel.com/aprillia-efla-susmita/tugas-rumah
 - Dibuat oleh: Aprillia Efla Susmita, SMKS Brantas Karangkates
