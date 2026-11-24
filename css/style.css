@@ -164,6 +164,10 @@ main {
   margin-bottom: 1.5rem;
 }
 
+#daftar-proyek {
+  min-height: 30rem;
+}
+
 .daftar-kartu .kartu {
   flex: 1 1 280px;
   margin-bottom: 0;

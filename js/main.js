@@ -170,13 +170,16 @@ if (daftarRepo) {
 const tombolKosongkan = document.querySelector ("#tombol-Kosongkan")
 
 
-tombolKosongkan.addEventListener ("click", () => {
+tombolKosongkan.addEventListener ("click", () => 
     document.body.classList.toggle (delete-textContent))
-}
+
 
 if (tombolKosongkan) {
-    tombolKosongkan.addEventListener("input", () => {
-        hitungKarakter.textContent = `${kotakPesan.value.length}/300
+    tombolKosongkan.addEventListener("input"), () => {
+      hitungKarakter.textContent = `${kotakPesan.value.length}/300
     karakter`;
     
+
+    }}
+
     
