@@ -11,8 +11,8 @@
 :root{
   --warna-utama: #1d3557;
   --warna-judul: #1D3557;
-  --warna-aksen: #E63946;
-  --warna-tautan: #E63946;
+  --warna-aksen: #C1121f;
+  --warna-tautan: #C1121f;
   --warna-latar: #F1FAEE;
   --warna-teks: #333333;
   --warna-kartu: #FFFFFF;
@@ -234,6 +234,10 @@ button {
   cursor: pointer;
 }
 
+button .tombol-kedua {
+ color:  var(--warna-utama);
+}
+
 /* 7. Footer */
 footer {
   background-color: var(--warna-utama);
@@ -338,8 +342,12 @@ font-size: 0.875rem;
 .hampir-penuh{
   color:var(--warna-aksen);
 }
-.tombol-kedua button{
+.tombol-kedua {
   color: var(--warna-latar);
+  flex-direction: row;
   
+}
 
+.dua-tombol {
+  flex-direction: row;
 }
