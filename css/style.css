@@ -166,6 +166,7 @@ main {
 
 #daftar-proyek {
   min-height: 30rem;
+  min-height: auto;
 }
 
 .daftar-kartu .kartu {
